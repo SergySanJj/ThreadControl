@@ -29,6 +29,8 @@ public class MainController {
 
     @FXML
     public void startThreads() {
+        label.setLabelFor(slider);
+
         this.startButton.setDisable(true);
         sliderController = new SliderController(slider, label);
         threadController = new ThreadController(sliderController);

@@ -13,24 +13,28 @@ public class SliderController {
     public SliderController(Slider slider, Label label) {
         this.slider = slider;
         this.label = label;
+        label.setLabelFor(slider);
     }
 
 
-    public void incSlider() {
-
-        int newVal = rangeChecker((int) slider.getValue() + 1);
-        slider.setValue(newVal);
-        label.setText(Integer.toString(newVal));
-
+    public synchronized void incSlider() {
+        currVal = rangeChecker(currVal + 1);
+        slider.setValue(currVal);
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
-    public void decSlider() {
-
-        int newVal = rangeChecker((int) slider.getValue() - 1);
-        slider.setValue(newVal);
-        label.setText(Integer.toString(newVal));
-
-
+    public synchronized void decSlider() {
+        currVal = rangeChecker(currVal - 1);
+        slider.setValue(currVal);
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 

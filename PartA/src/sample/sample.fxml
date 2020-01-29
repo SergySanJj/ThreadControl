@@ -20,7 +20,7 @@
         </Slider>
         <GridPane GridPane.columnIndex="0" GridPane.rowIndex="1">
           <children>
-            <Label text="Thread 2 priority" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+            <Label text="(-) Thread 2 priority" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
             <Button mnemonicParsing="false" onMouseClicked="#t2Inc" text="Up" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
             <Button mnemonicParsing="false" onMouseClicked="#t2Dec" text="Down" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
           </children>
@@ -35,7 +35,7 @@
         </GridPane>
         <GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
           <children>
-            <Label text="Thread 1 priority" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
+            <Label text="(+) Thread 1 priority" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
             <Button mnemonicParsing="false" onMouseClicked="#t1Inc" text="Up" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
             <Button mnemonicParsing="false" onMouseClicked="#t1Dec" text="Down" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
           </children>
