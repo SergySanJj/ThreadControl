@@ -1,0 +1,8 @@
+
+Fsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¿ùıœÿ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8šèıœÿ-
+asquid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(­²ÙÍ8øÉ‹ÿ-
+Lsquid:S1068")Remove this unused "label" private field.(âËëºùÿÿÿÿ8Œøæœÿ-
+asquid:S2276""CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(­²ÙÍ8øÉ‹ÿ-
+dsquid:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¿ùıœÿ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8šèıœÿ-

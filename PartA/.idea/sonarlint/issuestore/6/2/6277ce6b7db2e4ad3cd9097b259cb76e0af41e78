@@ -1,0 +1,8 @@
+
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÅ†áùÿÿÿÿ8Ğ¥ß˜ÿ-
+}squid:S1450"_Remove the "sliderController" field and declare it as a local variable in the relevant methods.(˜ğş8ÃÉê˜ÿ-
+ysquid:S1450"[Remove the "updateThread" field and declare it as a local variable in the relevant methods.(Ù…Ä€8ÃÉê˜ÿ-
+_squid:UselessImportCheck	"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8„¹²ÿ-
+asquid:UselessImportCheck"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜8„¹²ÿ-
+_squid:UselessImportCheck
+"5Remove this unused import 'javafx.stage.WindowEvent'.(‚ƒ×r8„¹²ÿ-

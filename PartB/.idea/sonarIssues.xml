@@ -3,77 +3,102 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/Increaser.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/Increaser.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/Main.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/Main.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/MainController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/MainController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/SliderController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/SliderController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/ThreadController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/ThreadController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/parta/Increaser.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/parta/Increaser.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/parta/Main.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/parta/Main.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/parta/MainController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/parta/MainController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/parta/SliderController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/parta/SliderController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/parta/ThreadController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/parta/ThreadController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/partone/Increaser.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/partone/Increaser.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/partone/Main.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/partone/Main.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/partone/MainController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/partone/MainController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/partone/SliderController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/partone/SliderController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/sergeiyarema/partone/ThreadController.java">
+        <entry key="$PROJECT_DIR$/../PartA/src/com/sergeiyarema/partone/ThreadController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PartA/src/sample/Increaser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PartA/src/sample/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PartA/src/sample/MainController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PartA/src/sample/SliderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PartA/src/sample/ThreadController.java">
           <value>
             <set />
           </value>
