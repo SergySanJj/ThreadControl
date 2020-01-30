@@ -10,9 +10,12 @@ public class Increaser implements Runnable {
     @Override
     public void run() {
         try {
-            sliderController.setSlider(90);
-            while (Thread.currentThread().isAlive()) {
+            while (true) {
+                if (sliderController.getSemaphore().compareAndSet(1, 0)) {
+                    break;
+                }
             }
+            sliderController.setSlider(90);
         } catch (Exception e) {
             Thread.currentThread().interrupt();
         }

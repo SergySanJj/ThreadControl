@@ -10,10 +10,13 @@ public class Decreaser implements Runnable {
     @Override
     public void run() {
         try {
-
-            while (Thread.currentThread().isAlive()) {
-                sliderController.setSlider(10);
+            while (true) {
+                if (sliderController.getSemaphore().compareAndSet(1, 0)) {
+                    break;
+                }
             }
+            sliderController.setSlider(10);
+
         } catch (Exception e) {
             Thread.currentThread().interrupt();
         }

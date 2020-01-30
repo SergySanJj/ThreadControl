@@ -1,7 +1,6 @@
 package sample;
 
 import javafx.application.Platform;
-import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 
 import java.util.concurrent.atomic.AtomicInteger;
