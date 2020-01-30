@@ -4,21 +4,23 @@ import javafx.application.Platform;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class SliderController {
-    private volatile int semaphore = 1; // 0 - block, non-zero - unblock
+    private AtomicInteger semaphore = new AtomicInteger(1); // 0 - block, non-zero - unblock
     private int minValue = 10;
     private int maxValue = 90;
     private Integer currVal = 50;
     private Slider slider;
 
 
-    public int getSemaphore() {
+    public AtomicInteger getSemaphore() {
         return semaphore;
     }
 
     public void setSemaphore(int val) {
-        semaphore = val;
-        System.out.println("Semaphore val " + semaphore);
+        semaphore.set(val);
+        System.out.println("Semaphore val " + semaphore.get());
     }
 
     public SliderController(Slider slider) {
@@ -32,9 +34,10 @@ public class SliderController {
 
     public void setSlider(int val) {
         currVal = rangeChecker(val);
-        Platform.runLater(() -> {
-            slider.setValue(currVal);
-        });
+//        Platform.runLater(() -> {
+//            slider.setValue(currVal);
+//        });
+        slider.setValue(currVal);
     }
 
 

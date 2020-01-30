@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f769fc3b0dd177c3365dff558843905f8609d7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/322dbe3780263f443b36b490a31b954272cd0aca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6277ce6b7db2e4ad3cd9097b259cb76e0af41e78" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70cf29927e4c02db322c2f4c4e4139cf1b8910be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83b52bad28e825762201de6c218d3e1286450551" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad8e8bd4ff8f02a914e3d9ca1bcc32dfc8c503a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c74a579c5e3110bc8073087f961f1342ee32baae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffd618a0b348d2aeb9c79cf94a81268bd6cd192e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PartB/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Decreaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Decreaser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Increaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Increaser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/SliderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SliderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ThreadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ThreadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PartB/src/sample/Decreaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PartB/src/sample/Decreaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PartB/src/sample/Increaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PartB/src/sample/Increaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PartB/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PartB/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PartB/src/sample/SliderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PartB/src/sample/SliderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PartB/src/sample/ThreadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PartB/src/sample/ThreadController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -228,6 +217,7 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1580307586058" duration="13859000" />
       <workItem from="1580343450953" duration="88000" />
+      <workItem from="1580367841462" duration="1864000" />
     </task>
     <servers />
   </component>

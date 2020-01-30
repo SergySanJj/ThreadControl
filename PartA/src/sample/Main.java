@@ -9,6 +9,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
+import java.lang.management.ManagementFactory;
+
 public class Main extends Application {
 
     @Override
@@ -29,6 +31,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+        System.out.println(ManagementFactory.getRuntimeMXBean().getName());
         launch(args);
     }
 }

@@ -17,23 +17,27 @@ public class SliderController {
     }
 
 
-    public synchronized void incSlider() {
-        currVal = rangeChecker(currVal + 1);
-        slider.setValue(currVal);
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public void incSlider() {
+        synchronized (slider) {
+            currVal = rangeChecker(currVal + 1);
+            slider.setValue(currVal);
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 
-    public synchronized void decSlider() {
-        currVal = rangeChecker(currVal - 1);
-        slider.setValue(currVal);
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public void decSlider() {
+        synchronized (slider) {
+            currVal = rangeChecker(currVal - 1);
+            slider.setValue(currVal);
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

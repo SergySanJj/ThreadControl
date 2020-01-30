@@ -13,7 +13,7 @@ public class ThreadController {
     }
 
     public void startThread1() {
-        if (sliderController.getSemaphore() == 0) {
+        if (sliderController.getSemaphore().get() == 0) {
             System.out.println("Critical region is blocked");
             return;
         }
@@ -33,7 +33,7 @@ public class ThreadController {
     }
 
     public void startThread2() {
-        if (sliderController.getSemaphore() == 0) {
+        if (sliderController.getSemaphore().get() == 0) {
             System.out.println("Critical region is blocked");
             return;
         }
