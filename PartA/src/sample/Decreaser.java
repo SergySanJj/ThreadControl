@@ -10,9 +10,10 @@ public class Decreaser implements Runnable {
     @Override
     public void run() {
         try {
-            while (true) {
+            while (!Thread.currentThread().isInterrupted()) {
                 sliderController.decSlider();
             }
+            Thread.currentThread().interrupt();
         } catch (Exception e) {
             Thread.currentThread().interrupt();
         }

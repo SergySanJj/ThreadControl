@@ -15,7 +15,9 @@ public class Increaser implements Runnable {
                     break;
                 }
             }
-            sliderController.setSlider(90);
+            while (!Thread.currentThread().isInterrupted())
+                sliderController.setSlider(90);
+            Thread.currentThread().interrupt();
         } catch (Exception e) {
             Thread.currentThread().interrupt();
         }

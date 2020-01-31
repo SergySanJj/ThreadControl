@@ -12,14 +12,10 @@ public class ThreadController implements Runnable {
 
     @Override
     public void run() {
-        try {
-            t1.start();
-            t2.start();
-        } catch (Exception e) {
-            t1.interrupt();
-            t2.interrupt();
-            Thread.currentThread().interrupt();
-        }
+        t1.setDaemon(true);
+        t2.setDaemon(true);
+        t1.start();
+        t2.start();
     }
 
     public void changePriority(int threadNum, int change) {

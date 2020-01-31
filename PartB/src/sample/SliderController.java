@@ -33,10 +33,12 @@ public class SliderController {
 
     public void setSlider(int val) {
         currVal = rangeChecker(val);
-//        Platform.runLater(() -> {
-//            slider.setValue(currVal);
-//        });
         slider.setValue(currVal);
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
 
 

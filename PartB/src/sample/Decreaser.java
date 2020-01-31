@@ -15,8 +15,9 @@ public class Decreaser implements Runnable {
                     break;
                 }
             }
-            sliderController.setSlider(10);
-
+            while (!Thread.currentThread().isInterrupted())
+                sliderController.setSlider(10);
+            Thread.currentThread().interrupt();
         } catch (Exception e) {
             Thread.currentThread().interrupt();
         }
